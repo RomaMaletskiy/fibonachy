@@ -13,7 +13,7 @@ def fibonacci_number(n):
 
 
 def main():
-    print("Добрий день! Дана програма розраховує числа Фібоначчі.")
+    print("Програма розраховує числа Фібоначчі.")
     try:
         numbers = int(input("Введіть кількість чисел: "))
         
@@ -24,7 +24,7 @@ def main():
             for i in range(numbers):
                 print(f"{i + 1}: {fibonacci_number(i)}")
     except ValueError:
-        print("Будь ласка, введіть коректне число.")
+        print("Введіть коректне число.")
 
 
 if __name__ == "__main__":
